@@ -20,10 +20,7 @@ jobs:
     steps:
       
 
-      - uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
+    
           
       - name: Run build and tests with Gradle wrapper
         run: git clone https://github.com/LuckPerms/LuckPerms.git
